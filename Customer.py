@@ -1,7 +1,7 @@
 class Vehicle:
-	Year = ""
-	Make = ""
-	Model = ""
+	vehicle_year = ""
+	vehicle_make = ""
+	vehicle_model = ""
 
 
 class Customer:
