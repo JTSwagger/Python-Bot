@@ -1,1 +1,2 @@
-class Bot
+class Bot:
+	pass

@@ -5,32 +5,32 @@ class Vehicle:
 
 
 class Customer:
-	FirstName = ""
-	LastName = ""
-	PhoneNumber = ""
-	PhoneType = ""
-	Email = ""
-	IProvider = "Progressive"
-	ExpMonth = ""
-	ExpYear = ""
-	StartMonth = ""
-	StartYear = ""
-	Address = ""
-	City = ""
-	State=""
-	Zip = ""
-	Residence = "own"
-	ResidenceT = ""
-	NumberOfVehicles = 1
-	Vehicle = list()
-	Birthday = ""
-	BirthYear = ""
-	BirthMonth = ""
-	Gender = ""
-	MaritalStatus = ""
+	first_name = ""
+	last_name = ""
+	phone_number = ""
+	phone_type = ""
+	email_address = ""
+	insurance_provider = "Progressive"
+	expiration_month = ""
+	expiration_year = ""
+	start_month = ""
+	start_year = ""
+	street_address = ""
+	address_city = ""
+	address_state = ""
+	address_zip = ""
+	residence = "own"
+	residence_type = ""
+	num_vehicles = 1
+	vehicles = []
+	birthday_day = ""
+	birthday_year = ""
+	birth_year = ""
+	gender = ""
+	marital_status = ""
 
-	def GetIProvider(Text):
-		return Text
+	def get_insurance_provider(self, speech_result):
+		pass
 
 
 
