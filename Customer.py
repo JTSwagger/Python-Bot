@@ -32,10 +32,5 @@ class Customer:
 	def get_insurance_provider(self, speech_result):
 		pass
 
-
-
-
-
-
-
-
+	def parse_lead_form(self):
+		pass
